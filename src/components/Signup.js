@@ -54,7 +54,7 @@ import M from 'materialize-css'
                 />
                 <button className="btn waves-effect waves-light #64b5f6 blue darken-1" 
                 onClick={()=>PostData()}>
-                    SignUp
+                    <Link to ="/signin">SignUp</Link>
                 </button>
                 <h5>
                     <Link to ="/signin">Already have an account?</Link>
