@@ -68,7 +68,7 @@ const Skills = () =>{
         const options = skills.map(i=>(i.skillName))
         const option = [];
         for (let i=0;i<options.length;i++){
-          option.concat({
+          option.push({
             value:options[i],
             label:options[i]
           })
